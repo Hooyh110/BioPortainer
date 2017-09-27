@@ -1,0 +1,14 @@
+[
+  {
+    "title": "DugongCMD XFCE",
+    "description": "DugongCMD image",
+    "categories": ["bioinformatics"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
+    "image": "dugong/dugong:latest",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  }
+]l
