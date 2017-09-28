@@ -1,8 +1,8 @@
 [
   {
-    "title": "DugongGUI XFCE",
+    "title": "DugongGUI - XFCE flavour",
     "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
-    "categories": ["Workstation"],
+    "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
     "image": "dugong/dugong:xfce",
@@ -12,9 +12,9 @@
     "volumes": ["/headless/data"]
   },
   {
-    "title": "DugongGUI iceWM",
+    "title": "DugongGUI - iceWM flavour",
     "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
-    "categories": ["Workstation"],
+    "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
     "image": "dugong/dugong:icewm",
