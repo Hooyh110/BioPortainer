@@ -34,5 +34,17 @@
       "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/headless/data"]
+  },
+  {
+    "title": "DugongClean",
+    "description": "Desktop-as-a-service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Desktop Docker"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
   }  
 ]
