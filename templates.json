@@ -1,7 +1,7 @@
 [
   {
     "title": "DugongGUI - XFCE flavour",
-    "description": "Desktop-as-a-service for Bioinformatics.",
+    "description": "Desktop-as-a-service for Bioinformatics. Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
@@ -13,7 +13,7 @@
   },
   {
     "title": "DugongGUI - iceWM flavour",
-    "description": "Desktop-as-a-service for Bioinformatics.",
+    "description": "Desktop-as-a-service for Bioinformatics. Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
@@ -25,7 +25,7 @@
   },
   {
     "title": "DugongCMD",
-    "description": "Desktop-as-a-service for Bioinformatics.",
+    "description": "Desktop-as-a-service for Bioinformatics. Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
