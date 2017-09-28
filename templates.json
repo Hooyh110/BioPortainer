@@ -1,7 +1,7 @@
 [
   {
     "title": "DugongCMD",
-    "description": "Desktop-as-a-service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -13,7 +13,7 @@
   },
   {
     "title": "DugongGUI - XFCE flavour",
-    "description": "Desktop-as-a-service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -25,7 +25,7 @@
   },
   {
     "title": "DugongGUI - iceWM flavour",
-    "description": "Desktop-as-a-service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -37,7 +37,7 @@
   },
   {
     "title": "DugongClean - GUI flavour",
-    "description": "Desktop-as-a-service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -49,7 +49,7 @@
   },
   {
     "title": "DugongClean - CMD flavour",
-    "description": "Desktop-as-a-service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
