@@ -23,4 +23,16 @@
     ],
     "volumes": ["/headless/data"]
   }
+  {
+    "title": "DugongCMD",
+    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "categories": ["Desktop Docker"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/fabianomenegidio/dugong-bioinformatics/gh-pages/.misc/dugongo.png",
+    "image": "dugong/dugong:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  }  
 ]
