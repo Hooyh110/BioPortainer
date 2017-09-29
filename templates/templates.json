@@ -72,7 +72,7 @@
     "volumes": ["/headless/data"]
   },
   {
-    "title": "Galaxy Stable",
+    "title": "Galaxy: Stable",
     "description": "Galaxy Docker Image Stable.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
@@ -84,7 +84,7 @@
     "volumes": ["/export/"]
   },
   {
-    "title": "Use Galaxy",
+    "title": "Galaxy: UseGalaxy.org",
     "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
@@ -96,36 +96,72 @@
     "volumes": ["/export/"]
   },
   {
-    "title": "Workflow4Metabolomics",
+    "title": "Galaxy: Workflow4Metabolomics",
     "description": "Galaxy Docker Image Workflow4Metabolomics flavour.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
-    "image": "bgruening/galaxy-stable",
+    "image": "workflow4metabolomics/galaxy-workflow4metabolomics",
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
     "volumes": ["/export/"]
   },
   {
-    "title": "RNA workbench",
+    "title": "Galaxy: RNA workbench",
     "description": "Galaxy Docker Image RNA workbench flavour.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
-    "image": "bgruening/galaxy-stable",
+    "image": "bgruening/galaxy-rna-workbench",
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
     "volumes": ["/export/"]
   },
   {
-    "title": "NCBI-Blast",
+    "title": "Galaxy: NCBI-Blast",
     "description": "Galaxy Docker Image NCBI-Blast flavour.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
-    "image": "bgruening/galaxy-stable",
+    "image": "bgruening/galaxy-blast",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: Ballaxy",
+    "description": "Galaxy Docker Image Ballaxy flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "anhi/ballaxy",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: DeepTools",
+    "description": "Galaxy Docker Image DeepTools flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-deeptools",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: ChIP-exo Workbench",
+    "description": "Galaxy Docker Image ChIP-exo Workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "gregvonkuster/docker-galaxy-chip-exo",
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
