@@ -82,17 +82,5 @@
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
     "volumes": ["/export/"]
-  },
-  {
-    "title": "Use Galaxy",
-    "description": "Galaxy Docker repository with tools from usegalaxy.org.",
-    "categories": ["Galaxy Tools"],
-    "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
-    "image": "bgruening/usegalaxy",
-    "ports": [
-      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
-    ],
-    "volumes": ["/export/"]
   }
 ]
