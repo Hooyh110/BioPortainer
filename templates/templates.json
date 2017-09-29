@@ -83,7 +83,7 @@
     ],
     "volumes": ["/export/"]
   },
-    {
+  {
     "title": "Use Galaxy",
     "description": "Galaxy Docker repository with tools from usegalaxy.org.",
     "categories": ["Galaxy Tools"],
