@@ -73,7 +73,7 @@
   },
   {
     "title": "Galaxy Stable",
-    "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
+    "description": "Galaxy Docker Image Stable.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
@@ -97,7 +97,7 @@
   },
   {
     "title": "Workflow4Metabolomics",
-    "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
+    "description": "Galaxy Docker Image Workflow4Metabolomics flavour.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
@@ -109,7 +109,7 @@
   },
   {
     "title": "RNA workbench",
-    "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
+    "description": "Galaxy Docker Image RNA workbench flavour.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
@@ -121,7 +121,7 @@
   },
   {
     "title": "NCBI-Blast",
-    "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
+    "description": "Galaxy Docker Image NCBI-Blast flavour.",
     "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
