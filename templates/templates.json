@@ -85,7 +85,7 @@
   },
     {
     "title": "Use Galaxy",
-    "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
+    "description": "Galaxy Docker repository with tools from usegalaxy.org.",
     "categories": ["Galaxy Tools"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
