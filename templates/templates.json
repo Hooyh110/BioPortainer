@@ -74,7 +74,7 @@
   {
     "title": "Galaxy Stable",
     "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
-    "categories": ["Galaxy Tools"],
+    "categories": ["Galaxy"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
@@ -86,7 +86,7 @@
   {
     "title": "Use Galaxy",
     "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
-    "categories": ["Galaxy Tools"],
+    "categories": ["Galaxy"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
