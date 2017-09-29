@@ -82,7 +82,7 @@
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
     "volumes": ["/export/"]
-  }
+  },
     {
     "title": "Use Galaxy",
     "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
