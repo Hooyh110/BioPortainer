@@ -175,7 +175,7 @@
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
     "image": "dugong/circompara:xfce",
     "ports": [
-      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/export/"]
   },
@@ -187,7 +187,7 @@
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
     "image": "dugong/circompara:icewm",
     "ports": [
-      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/export/"]
   },
@@ -199,7 +199,7 @@
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
     "image": "dugong/circompara:cmd",
     "ports": [
-      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+      "3000/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/export/"]
   }
