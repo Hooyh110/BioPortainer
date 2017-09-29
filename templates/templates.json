@@ -70,5 +70,17 @@
       "6901/tcp", "5901/tcp", "22/tcp"
     ],
     "volumes": ["/headless/data"]
+  },
+  {
+    "title": "Galaxy Stable",
+    "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
+    "categories": ["Galaxy"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-stable",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
   }
 ]
