@@ -2,7 +2,7 @@
   {
     "title": "DugongCMD",
     "description": "Desktop-as-a-Service for Bioinformatics. Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Desktop Docker"],
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:cmd",
@@ -14,7 +14,7 @@
   {
     "title": "DugongGUI - XFCE flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Desktop Docker"],
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:xfce",
@@ -26,7 +26,7 @@
   {
     "title": "DugongGUI - iceWM flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Desktop Docker"],
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:icewm",
@@ -38,7 +38,7 @@
   {
     "title": "DugongClean - CMD flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Desktop Docker"],
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:cmd",
@@ -50,7 +50,7 @@
   {
     "title": "DugongClean - GUI XFCE flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Desktop Docker"],
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/clean:xfce",
@@ -62,7 +62,7 @@
   {
     "title": "DugongClean - GUI iceWM flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Desktop Docker"],
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/clean:icewm",
@@ -74,7 +74,7 @@
   {
     "title": "Galaxy Stable",
     "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
-    "categories": ["Galaxy"],
+    "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
@@ -86,7 +86,7 @@
   {
     "title": "Use Galaxy",
     "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
-    "categories": ["Galaxy"],
+    "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/usegalaxy",
@@ -98,7 +98,7 @@
   {
     "title": "Workflow4Metabolomics",
     "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
-    "categories": ["Galaxy"],
+    "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
@@ -110,7 +110,7 @@
   {
     "title": "RNA workbench",
     "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
-    "categories": ["Galaxy"],
+    "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
@@ -122,7 +122,7 @@
   {
     "title": "NCBI-Blast",
     "description": "The Galaxy Docker Image is an easy distributable full-fledged Galaxy installation, that can be used for testing, teaching and presenting new tools and features.",
-    "categories": ["Galaxy"],
+    "categories": ["Galaxy Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
