@@ -178,7 +178,7 @@
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
     "volumes": ["/export/"]
-  }
+  },
   {
     "title": "Jupyter Pipeline: CirComPara in DugongGUI",
     "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
