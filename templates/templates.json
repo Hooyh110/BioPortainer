@@ -166,5 +166,41 @@
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
     "volumes": ["/export/"]
+  },
+  {
+    "title": "Jupyter Pipeline: CirComPara in DugongGUI",
+    "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:xfce",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  }
+  {
+    "title": "Jupyter Pipeline: CirComPara in DugongGUI",
+    "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:icewm",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Jupyter Pipeline: CirComPara in DugongCMD",
+    "description": "Complete CirComPara Pipeline in DugongCMD.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:cmd",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
   }
 ]
