@@ -1,7 +1,7 @@
 [
   {
     "title": "DugongCMD",
-    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -13,7 +13,7 @@
   },
   {
     "title": "DugongGUI - XFCE flavour",
-    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -25,7 +25,7 @@
   },
   {
     "title": "DugongGUI - iceWM flavour",
-    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -37,7 +37,7 @@
   },
   {
     "title": "DugongClean - CMD flavour",
-    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -49,7 +49,7 @@
   },
   {
     "title": "DugongClean - GUI XFCE flavour",
-    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
@@ -61,7 +61,7 @@
   },
   {
     "title": "DugongClean - GUI iceWM flavour",
-    "description": "Dugong is a powerful workstation platform especially designed for scientific computational analysis, mainly of bioinformatics and computational biology, that can be installed in any computational ecosystem, regardless of the operating system and hardware used.",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Desktop Docker"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
