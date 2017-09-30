@@ -1,0 +1,206 @@
+[
+  {
+    "title": "DugongCMD",
+    "description": "Desktop-as-a-Service for Bioinformatics. Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "title": "DugongGUI - XFCE flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "title": "DugongGUI - iceWM flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "title": "DugongClean - CMD flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "title": "DugongClean - GUI XFCE flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/clean:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "title": "DugongClean - GUI iceWM flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/clean:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "title": "Galaxy: Stable",
+    "description": "Galaxy Docker Image Stable.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-stable",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: UseGalaxy.org",
+    "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/usegalaxy",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: Workflow4Metabolomics",
+    "description": "Galaxy Docker Image Workflow4Metabolomics flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "workflow4metabolomics/galaxy-workflow4metabolomics",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: RNA workbench",
+    "description": "Galaxy Docker Image RNA workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-rna-workbench",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: NCBI-Blast",
+    "description": "Galaxy Docker Image NCBI-Blast flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-blast",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: Ballaxy",
+    "description": "Galaxy Docker Image Ballaxy flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "anhi/ballaxy",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: DeepTools",
+    "description": "Galaxy Docker Image DeepTools flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-deeptools",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Galaxy: ChIP-exo Workbench",
+    "description": "Galaxy Docker Image ChIP-exo Workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "gregvonkuster/docker-galaxy-chip-exo",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Jupyter Notebook: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Jupyter Notebook: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Jupyter Notebook: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongCMD.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  }
+]
