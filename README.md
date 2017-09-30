@@ -1,4 +1,4 @@
-![BioPortainer](https://github.com/LaBiOS/bioportainer/blob/master/images/logo.png)
+![BioPortainer](https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo.png)
 ---
 
 ## Test BioPortainer NOW!
