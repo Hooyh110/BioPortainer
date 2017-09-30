@@ -8,6 +8,7 @@
 From https://get.docker.com:
 
 $ curl -fsSL get.docker.com -o get-docker.sh
+
 $ sh get-docker.sh
 
 ## Compose Install
