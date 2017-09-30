@@ -5,6 +5,7 @@ services:
     image: bioportainer
     ports:
       - "9000:9000"
+    command: --templates http://bioportainer.ml/templates.json
     networks:
       - bioportainer-net
     volumes:
