@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  portainer:
+    image: bioportainer
+    ports:
+      - "9000:9000"
+    networks:
+      - bioportainer-net
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./bioportainer_data:/data
+
+networks:
+  bioportainer-net:
