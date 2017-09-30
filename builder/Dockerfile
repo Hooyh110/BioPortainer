@@ -6,4 +6,4 @@ COPY bioportainer /
 VOLUME /data
 WORKDIR /
 EXPOSE 9000
-ENTRYPOINT ["/portainer"]
+ENTRYPOINT ["/bioportainer"]
