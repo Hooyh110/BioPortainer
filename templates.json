@@ -372,7 +372,7 @@
     "volumes": ["/export/"]
   },
   {
-    "title": "Galaxy: IPython Notebook",
+    "title": "Galaxy Tools: IPython Notebook",
     "description": "Docker IPython Container",
     "categories": ["Galaxy Tools"],
     "platform": "linux",
@@ -384,7 +384,7 @@
     "volumes": ["/import/"]
   },
   {
-    "title": "Galaxy: Jupyter Notebook",
+    "title": "Galaxy Tools: Jupyter Notebook",
     "description": "Docker Jupyter Container",
     "categories": ["Galaxy Tools"],
     "platform": "linux",
@@ -394,6 +394,18 @@
       "8888/tcp"
     ],
     "volumes": ["/import/"]
+  },
+  {
+    "title": "Galaxy Tools: Planemo",
+    "description": "Docker Planemo Container",
+    "categories": ["Galaxy Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/planemo",
+    "ports": [
+      "7777/tcp"
+    ],
+    "volumes": ["/galaxy-central/"]
   },
   {
     "title": "Jupyter Notebook: CirComPara",
@@ -462,9 +474,6 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_biocontainer.png",
     "image": "biocontainers/biocontainers",
-    "ports": [
-      "6080/tcp"
-    ],
     "volumes": ["/data", "/config"]
   }
 ]
