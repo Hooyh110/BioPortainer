@@ -406,5 +406,29 @@
       "3000/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/export/"]
+  },
+  {
+    "title": "GUIdock",
+    "description": "Delivering GUI Display from Docker.",
+    "categories": ["GUIdock Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_guidock.png",
+    "image": "biodepot/guidock",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "GUIdock: noVNC",
+    "description": "Delivering GUI Display from Docker.",
+    "categories": ["GUIdock Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_guidock.png",
+    "image": "biodepot/guidock_novnc",
+    "ports": [
+      "6080/tcp"
+    ],
+    "volumes": ["/export/"]
   }
 ]
