@@ -646,7 +646,7 @@
   {
     "title": "Bioconductor: Base",
     "description": "Bioconductor: Base image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_base2",
@@ -658,7 +658,7 @@
   {
     "title": "Bioconductor: Core",
     "description": "Bioconductor: Core image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_core2",
@@ -670,7 +670,7 @@
   {
     "title": "Bioconductor: Flow Cytometry",
     "description": "Bioconductor: Flow Cytometry image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_flow",
@@ -682,7 +682,7 @@
   {
     "title": "Bioconductor: Microarray Packages",
     "description": "Bioconductor: Microarray Packages image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_microarray",
@@ -694,7 +694,7 @@
   {
     "title": "Bioconductor: Sequencing Packages",
     "description": "Bioconductor: Sequencing Packages image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_sequencing",
@@ -706,7 +706,7 @@
   {
     "title": "Bioconductor: Proteomics Packages",
     "description": "Bioconductor: Proteomics Packages image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_proteomics2",
@@ -718,7 +718,7 @@
   {
     "title": "Bioconductor: Metabolomics Packages",
     "description": "Bioconductor: Metabolomics Packages image.",
-    "categories": ["R Bioconductor Flavours"],
+    "categories": ["Bioconductor Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
     "image": "bioconductor/release_metabolomics2",
