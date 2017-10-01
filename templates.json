@@ -72,6 +72,42 @@
     "volumes": ["/headless/data"]
   },
   {
+    "title": "Dugong Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
+    "categories": ["Dugong Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/circompara:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Dugong Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
+    "categories": ["Dugong Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/circompara:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "title": "Dugong Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongCMD.",
+    "categories": ["Dugong Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/circompara:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
     "title": "Galaxy: Stable",
     "description": "Galaxy Docker Image Stable.",
     "categories": ["Galaxy Flavours"],
