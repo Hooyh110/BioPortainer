@@ -408,6 +408,114 @@
     "volumes": ["/galaxy-central/"]
   },
   {
+    "title": "Jupyter Notebook: Base",
+    "description": "Small base image for Jupyter Notebook.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/base-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: JupyterHub",
+    "description": "JupyterHub: A multi-user server for Jupyter notebooks.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyterhub/jupyterhub",
+    "ports": [
+      "8000/tcp"
+    ],
+    "volumes": ["/srv/jupyterhub/"]
+  },
+  {
+    "title": "Jupyter Notebook: SingleUser",
+    "description": "JupyterHub: A single-user server for Jupyter notebooks.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyterhub/singleuser",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: Minimal",
+    "description": "Minimal Jupyter Notebook.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/minimal-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: Scientific Python",
+    "description": "Jupyter Notebook Scientific Python Stack.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/scipy-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: All Spark",
+    "description": "Jupyter Notebook Python, Scala, R, Spark, Mesos Stack.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/all-spark-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: Data Science",
+    "description": "Jupyter Notebook Data Science.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/datascience-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: Tensorflow",
+    "description": "Jupyter Notebook Scientific Python Stack Tensorflow.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/tensorflow-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "title": "Jupyter Notebook: Viewer",
+    "description": "Jupyter Notebook Viewer.",
+    "categories": ["Jupyter Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/nbviewer",
+    "ports": [
+      "8080/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },	
+  {
     "title": "Jupyter Notebook: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
     "categories": ["Jupyter Pipeline"],
