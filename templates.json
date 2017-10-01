@@ -408,7 +408,7 @@
     "volumes": ["/export/"]
   },
   {
-    "title": "GUIdock Flavours",
+    "title": "GUIdock",
     "description": "Delivering GUI Display from Docker.",
     "categories": ["GUIdock Flavours"],
     "platform": "linux",
