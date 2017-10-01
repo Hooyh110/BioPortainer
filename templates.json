@@ -583,17 +583,5 @@
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_biocontainer.png",
     "image": "biocontainers/biocontainers",
     "volumes": ["/data", "/config"]
-  },
-  {
-    "title": "R: RStudio",
-    "description": "RStudio Server image.",
-    "categories": ["R Flavours"],
-    "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_R.png",
-    "image": "rocker/rstudio",
-    "ports": [
-      "8787/tcp", "3838/tcp"
-    ],
-    "volumes": ["/home/rstudio"]
-  },
+  }
 ]
