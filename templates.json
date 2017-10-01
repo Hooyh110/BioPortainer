@@ -644,6 +644,90 @@
     "volumes": ["/srv/shiny-server/", "/var/log/shiny-server/"]
   },
   {
+    "title": "Bioconductor: Base",
+    "description": "Bioconductor: Base image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_base2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "Bioconductor: Core",
+    "description": "Bioconductor: Core image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_core2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "Bioconductor: Flow Cytometry",
+    "description": "Bioconductor: Flow Cytometry image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_flow",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "Bioconductor: Microarray Packages",
+    "description": "Bioconductor: Microarray Packages image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_microarray",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "Bioconductor: Sequencing Packages",
+    "description": "Bioconductor: Sequencing Packages image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_sequencing",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "Bioconductor: Proteomics Packages",
+    "description": "Bioconductor: Proteomics Packages image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_proteomics2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "Bioconductor: Metabolomics Packages",
+    "description": "Bioconductor: Metabolomics Packages image.",
+    "categories": ["R Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_metabolomics2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },	
+  {
     "title": "BioContainer: Base",
     "description": "Delivering GUI Display from Docker.",
     "categories": ["BioContainer Flavours"],
