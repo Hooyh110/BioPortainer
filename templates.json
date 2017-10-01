@@ -1,8 +1,8 @@
 [
   {
     "title": "DugongCMD",
-    "description": "Desktop-as-a-Service for Bioinformatics. Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Dugong"],
+    "description": "Desktop-as-a-Service for Bioinformatics. Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:cmd",
@@ -13,8 +13,8 @@
   },
   {
     "title": "DugongGUI - XFCE flavour",
-    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Dugong"],
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:xfce",
@@ -25,8 +25,8 @@
   },
   {
     "title": "DugongGUI - iceWM flavour",
-    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Dugong"],
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:icewm",
@@ -37,8 +37,8 @@
   },
   {
     "title": "DugongClean - CMD flavour",
-    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Dugong"],
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:cmd",
@@ -49,8 +49,8 @@
   },
   {
     "title": "DugongClean - GUI XFCE flavour",
-    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Dugong"],
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/clean:xfce",
@@ -61,8 +61,8 @@
   },
   {
     "title": "DugongClean - GUI iceWM flavour",
-    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: support for Jupyter Notebook, BioConda, LinuxBrew, among other features.",
-    "categories": ["Dugong"],
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/clean:icewm",
