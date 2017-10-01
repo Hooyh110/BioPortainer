@@ -430,5 +430,17 @@
       "6080/tcp"
     ],
     "volumes": ["/export/"]
+  },
+  {
+    "title": "BioContainer: Base",
+    "description": "Delivering GUI Display from Docker.",
+    "categories": ["BioContainer Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_biocontainer.png",
+    "image": "biocontainers/biocontainers",
+    "ports": [
+      "6080/tcp"
+    ],
+    "volumes": ["/data", "/config"]
   }
 ]
