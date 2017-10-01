@@ -372,6 +372,30 @@
     "volumes": ["/export/"]
   },
   {
+    "title": "Galaxy: IPython Notebook",
+    "description": "Docker IPython Container",
+    "categories": ["Galaxy Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/docker-ipython-notebook",
+    "ports": [
+      "6789/tcp"
+    ],
+    "volumes": ["/import/"]
+  },
+  {
+    "title": "Galaxy: Jupyter Notebook",
+    "description": "Docker Jupyter Container",
+    "categories": ["Galaxy Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/docker-jupyter-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/import/"]
+  },
+  {
     "title": "Jupyter Notebook: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
     "categories": ["Jupyter Pipeline"],
