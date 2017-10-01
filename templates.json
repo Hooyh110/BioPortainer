@@ -576,6 +576,14 @@
     "volumes": ["/export/"]
   },
   {
+    "title": "R: Base",
+    "description": "R is a system for statistical computation and graphics.",
+    "categories": ["R Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_R.png",
+    "image": "docker pull r-base"
+  },
+  {
     "title": "R: RStudio",
     "description": "RStudio Server image.",
     "categories": ["R Flavours"],
@@ -585,7 +593,19 @@
     "ports": [
       "8787/tcp", "3838/tcp"
     ],
-    "volumes": ["/export/"]
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "title": "R: Shiny",
+    "description": "Shiny Server image.",
+    "categories": ["R Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_R.png",
+    "image": "rocker/rstudio",
+    "ports": [
+      "3838/tcp"
+    ],
+    "volumes": ["/srv/shiny-server/", "/var/log/shiny-server/"]
   },
   {
     "title": "BioContainer: Base",
