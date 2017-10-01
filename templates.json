@@ -552,7 +552,7 @@
     "volumes": ["/home/jovyan/work/"]
   },	
   {
-    "title": "Jupyter Notebook: CirComPara",
+    "title": "Jupyter Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
     "categories": ["Jupyter Pipeline"],
     "platform": "linux",
@@ -564,7 +564,7 @@
     "volumes": ["/export/"]
   },
   {
-    "title": "Jupyter Notebook: CirComPara",
+    "title": "Jupyter Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
     "categories": ["Jupyter Pipeline"],
     "platform": "linux",
@@ -576,7 +576,7 @@
     "volumes": ["/export/"]
   },
   {
-    "title": "Jupyter Notebook: CirComPara",
+    "title": "Jupyter Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongCMD.",
     "categories": ["Jupyter Pipeline"],
     "platform": "linux",
