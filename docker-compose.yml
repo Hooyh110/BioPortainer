@@ -10,7 +10,7 @@ services:
       - bioportainer-net
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./bioportainer_data:/data
+      - ${PWD}/bioportainer_data:/data
 
 networks:
   bioportainer-net:
