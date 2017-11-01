@@ -42,13 +42,13 @@ $ docker run -d -p 9000:9000 --name BioPortainer \
 
 BioPortainer can also be installed through the Docker Compose, according to the procedure below:
 
-1 Download docker-compose.yml:
+1 - Download docker-compose.yml:
 
 ```
 $ wget http://bioportainer.ml/docker-compose.yml -P bioportainer
 ```
 
-2 Run Docker Compose:
+2 - Run Docker Compose:
 
 ```
 $ cd bioportainer; docker-compose up -d
