@@ -13,7 +13,7 @@ $ docker pull labios/bioportainer
 ```
 
 ```
-$ docker run -d -p 9000:9000 --name BioPortainer -h BioPortainer \
+$ docker run -d -p 9000:9000 --name BioPortainer \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v ${PWD}/bioportainer_data:/data \
   --templates http://bioportainer.ml/templates.json \
