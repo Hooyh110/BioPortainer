@@ -1,4 +1,4 @@
-<p align="center"><img width="338" height="338" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/biportainer.png"></p>
+<p align="center"><img width="556" height="635" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/biportainer.png"></p>
 
 ---
 
