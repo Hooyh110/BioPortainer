@@ -19,7 +19,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
 [![Dply](https://dply.co/dply-135.svg)](https://dply.co/b/Qd4cNfaQ)
 
-<a href="https://dply.co/b/Qd4cNfaQ"><img src="https://dply.co/b.svg"/></a>
+<a href="https://dply.co/b/Qd4cNfaQ"><img src="http://touchstone3d.com/wp-content/uploads/2014/08/Icon_Deploy_320_PA1-01.svg"/></a>
 
 
 ---
