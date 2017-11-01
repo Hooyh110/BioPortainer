@@ -1,6 +1,6 @@
 ![BioPortainer](https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo.png)
 
-<p align="center"><img width="356" height="338" src="https://raw.githubusercontent.com/LaBiOS/bioDeepLearn/master/bioportainer.png"></p>
+<p align="center"><img width="356" height="338" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/biportainer.png"></p>
 
 ---
 
