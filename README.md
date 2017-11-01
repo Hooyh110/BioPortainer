@@ -19,8 +19,8 @@ We currently offer the following operating systems: CentOS 6, CentOS 7, Debian 7
 Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
 [![Dply](https://dply.co/b.svg)](https://dply.co/b/Qd4cNfaQ)
----
 
+---
 
 ## Deploy BioPortainer Image
 
