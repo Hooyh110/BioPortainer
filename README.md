@@ -57,3 +57,12 @@ $ cd bioportainer; docker-compose up -d
 ---
 
 ## Access BioPortainer
+
+
+```
+http://<IP or Host>:9000
+
+or
+
+http://localhost:9000
+```
