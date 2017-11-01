@@ -71,14 +71,26 @@ http://localhost:9000
 
 ## Screenshot BioPortainer
 
+- Menu Container
+
 ![Container](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-31-53.png)
+
+- Menu Images
 
 ![Images](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-32-21.png)
 
+- Application templates list
+
 ![Templates](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-30-14.png)
+
+- Application templates: Dugong CMD
 
 ![DugongCMD](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-30-28.png)
 
+- Application templates: Dugong GUI
+
 ![DugongGUI](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-30-47.png)
+
+- Application templates: Galaxy Stable
 
 ![Galaxy](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-31-17.png)
