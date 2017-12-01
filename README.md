@@ -36,7 +36,7 @@ $ docker pull labios/bioportainer
 $ docker run -d -p 9000:9000 --name BioPortainer \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v ${PWD}/bioportainer_data:/data \
-  --templates https://labios.github.io/BioPortainer/templates.json \
+  --templates http://bioportainer.ml/templates.json \
   labior/bioportainer
 ```
 
@@ -45,7 +45,7 @@ BioPortainer can also be installed through the Docker Compose, according to the 
 1 - Download docker-compose.yml:
 
 ```
-$ wget https://labios.github.io/BioPortainer/docker-compose.yml -P bioportainer
+$ wget http://bioportainer.ml/docker-compose.yml -P bioportainer
 ```
 
 2 - Run Docker Compose:
