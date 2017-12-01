@@ -5,7 +5,7 @@ services:
     image: labios/bioportainer
     ports:
       - "9000:9000"
-    command: --templates https://labios.github.io/BioPortainer/templates.json
+    command: --templates http://bioportainer.ml/templates.json
     networks:
       - bioportainer-net
     volumes:
