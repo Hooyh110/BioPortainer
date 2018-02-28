@@ -1,0 +1,15 @@
+[
+  {
+    "type": "container",
+    "title": "DugongCMD",
+    "description": "Desktop-as-a-Service for Bioinformatics. Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+]
