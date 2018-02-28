@@ -11,5 +11,5 @@
       "3000/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/headless/data"]
-  },
+  }
 ]
