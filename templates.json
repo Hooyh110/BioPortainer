@@ -11,5 +11,791 @@
       "3000/tcp", "22/tcp", "8888/tcp"
     ],
     "volumes": ["/headless/data"]
+  },
+  {
+    "type": "container",
+    "title": "DugongGUI - XFCE flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "type": "container",
+    "title": "DugongGUI - iceWM flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "type": "container",
+    "title": "DugongClean - CMD flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/dugong:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "type": "container",
+    "title": "DugongClean - GUI XFCE flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/clean:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "type": "container",
+    "title": "DugongClean - GUI iceWM flavour",
+    "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
+    "categories": ["Dugong Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/clean:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp"
+    ],
+    "volumes": ["/headless/data"]
+  },
+  {
+    "type": "container",
+    "title": "Dugong Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
+    "categories": ["Dugong Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/circompara:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Dugong Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
+    "categories": ["Dugong Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/circompara:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Dugong Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongCMD.",
+    "categories": ["Dugong Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
+    "image": "dugong/circompara:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Stable",
+    "description": "Galaxy Docker Image Stable.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-stable",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: UseGalaxy.org",
+    "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/usegalaxy",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Workflow4Metabolomics",
+    "description": "Galaxy Docker Image Workflow4Metabolomics flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "workflow4metabolomics/galaxy-workflow4metabolomics",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: RNA workbench",
+    "description": "Galaxy Docker Image RNA workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-rna-workbench",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: NCBI-Blast",
+    "description": "Galaxy Docker Image NCBI-Blast flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-blast",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Ballaxy",
+    "description": "Galaxy Docker Image Ballaxy flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "anhi/ballaxy",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: DeepTools",
+    "description": "Galaxy Docker Image DeepTools flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-deeptools",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: ChIP-exo Workbench",
+    "description": "Galaxy Docker Image ChIP-exo Workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "gregvonkuster/docker-galaxy-chip-exo",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Proteomics",
+    "description": "Galaxy Docker Image Proteomics Workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxyp",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: NGS Preprocessing",
+    "description": "Galaxy Docker Image NGS Preprocessing flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-ngs-preprocessing",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: MPI for Evolutionary Biology",
+    "description": "Galaxy Docker Image MPI for Evolutionary Biology flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-ploen",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Cheminformatics workbench",
+    "description": "Galaxy Docker Image Cheminformatics workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-chemicaltoolbox",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Epigenetics workbench",
+    "description": "Galaxy Docker Image Epigenetics workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-epigenetics",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Machine Learning",
+    "description": "Galaxy Docker Image Machine Learning flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-machine-learning",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Molecular Phylogenetics",
+    "description": "Galaxy Docker Image Molecular Phylogenetics flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-phylogenetics",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Protease Predictions",
+    "description": "Galaxy Docker Image Protease Predictions flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-protease-prediction",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Metagenomics Workbench",
+    "description": "Galaxy Docker Image Metagenomics Workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-metagenomics",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: DESeq2 Workbench",
+    "description": "Galaxy Docker Image DESeq2 Workbench flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-deseq2",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Sequence Tools",
+    "description": "Galaxy Docker Image Sequence Tools flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-sequence-tools",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Exome Seq",
+    "description": "Galaxy Docker Image Exome Seq flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-exome-seq",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: RNA Structural Analysis",
+    "description": "Galaxy Docker Image RNA Structural Analysis flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-rna-structural-analysis",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Genome Annotation",
+    "description": "Galaxy Docker Image Genome Annotation flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-genome-annotation",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: Image Analysis",
+    "description": "Galaxy Docker Image Imaging Analysis flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-imaging",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: MUMmer 3",
+    "description": "Galaxy Docker Image MUMmer 3 flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-mummer",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy: RNA-Seq",
+    "description": "Galaxy Docker Image RNA-Seq flavour.",
+    "categories": ["Galaxy Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/galaxy-rna-seq",
+    "ports": [
+      "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy Tools: IPython Notebook",
+    "description": "Docker IPython Container",
+    "categories": ["Galaxy Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/docker-ipython-notebook",
+    "ports": [
+      "6789/tcp"
+    ],
+    "volumes": ["/import/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy Tools: Jupyter Notebook",
+    "description": "Docker Jupyter Container",
+    "categories": ["Galaxy Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/docker-jupyter-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/import/"]
+  },
+  {
+    "type": "container",
+    "title": "Galaxy Tools: Planemo",
+    "description": "Docker Planemo Container",
+    "categories": ["Galaxy Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
+    "image": "bgruening/planemo",
+    "ports": [
+      "7777/tcp"
+    ],
+    "volumes": ["/galaxy-central/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: Base",
+    "description": "Small base image for Jupyter Notebook.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/base-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: JupyterHub",
+    "description": "JupyterHub: A multi-user server for Jupyter notebooks.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyterhub/jupyterhub",
+    "ports": [
+      "8000/tcp"
+    ],
+    "volumes": ["/srv/jupyterhub/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: SingleUser",
+    "description": "JupyterHub: A single-user server for Jupyter notebooks.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyterhub/singleuser",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: Minimal",
+    "description": "Minimal Jupyter Notebook.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/minimal-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: Scientific Python",
+    "description": "Jupyter Notebook Scientific Python Stack.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/scipy-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: All Spark",
+    "description": "Jupyter Notebook Python, Scala, R, Spark, Mesos Stack.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/all-spark-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: Data Science",
+    "description": "Jupyter Notebook Data Science.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/datascience-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: Tensorflow",
+    "description": "Jupyter Notebook Scientific Python Stack Tensorflow.",
+    "categories": ["Jupyter Notebook"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/tensorflow-notebook",
+    "ports": [
+      "8888/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Notebook: Viewer",
+    "description": "Jupyter Notebook Viewer.",
+    "categories": ["Jupyter Tools"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "jupyter/nbviewer",
+    "ports": [
+      "8080/tcp"
+    ],
+    "volumes": ["/home/jovyan/work/"]
+  },	
+  {
+    "type": "container",
+    "title": "Jupyter Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:xfce",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:icewm",
+    "ports": [
+      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "Jupyter Pipeline: CirComPara",
+    "description": "Complete CirComPara Pipeline in DugongCMD.",
+    "categories": ["Jupyter Pipeline"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
+    "image": "dugong/circompara:cmd",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "GUIdock",
+    "description": "Delivering GUI Display from Docker.",
+    "categories": ["GUIdock Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_guidock.png",
+    "image": "biodepot/guidock",
+    "ports": [
+      "3000/tcp", "22/tcp", "8888/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "GUIdock: noVNC",
+    "description": "Delivering GUI Display from Docker.",
+    "categories": ["GUIdock Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_guidock.png",
+    "image": "biodepot/guidock_novnc",
+    "ports": [
+      "6080/tcp"
+    ],
+    "volumes": ["/export/"]
+  },
+  {
+    "type": "container",
+    "title": "R: Base",
+    "description": "R is a system for statistical computation and graphics.",
+    "categories": ["R Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_R.png",
+    "image": "docker pull r-base"
+  },
+  {
+    "type": "container",
+    "title": "R: RStudio",
+    "description": "RStudio Server image.",
+    "categories": ["R Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_R.png",
+    "image": "rocker/rstudio",
+    "ports": [
+      "8787/tcp", "3838/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "R: Shiny",
+    "description": "Shiny Server image.",
+    "categories": ["R Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_R.png",
+    "image": "rocker/rstudio",
+    "ports": [
+      "3838/tcp"
+    ],
+    "volumes": ["/srv/shiny-server/", "/var/log/shiny-server/"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Base",
+    "description": "Bioconductor: Base image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_base2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Core",
+    "description": "Bioconductor: Core image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_core2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Flow Cytometry",
+    "description": "Bioconductor: Flow Cytometry image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_flow",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Microarray Packages",
+    "description": "Bioconductor: Microarray Packages image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_microarray",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Sequencing Packages",
+    "description": "Bioconductor: Sequencing Packages image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_sequencing",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Proteomics Packages",
+    "description": "Bioconductor: Proteomics Packages image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_proteomics2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },
+  {
+    "type": "container",
+    "title": "Bioconductor: Metabolomics Packages",
+    "description": "Bioconductor: Metabolomics Packages image.",
+    "categories": ["Bioconductor Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_bioconductor.png",
+    "image": "bioconductor/release_metabolomics2",
+    "ports": [
+      "8787/tcp"
+    ],
+    "volumes": ["/home/rstudio"]
+  },	
+  {
+    "type": "container",
+    "title": "BioContainer: Base",
+    "description": "Delivering GUI Display from Docker.",
+    "categories": ["BioContainer Flavours"],
+    "platform": "linux",
+    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_biocontainer.png",
+    "image": "biocontainers/biocontainers",
+    "volumes": ["/data", "/config"]
   }
 ]
