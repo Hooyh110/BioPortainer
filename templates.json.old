@@ -1,5 +1,6 @@
 [
   {
+    "type": "container",
     "title": "DugongCMD",
     "description": "Desktop-as-a-Service for Bioinformatics. Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Dugong Flavours"],
@@ -12,6 +13,7 @@
     "volumes": ["/headless/data"]
   },
   {
+    "type": "container",
     "title": "DugongGUI - XFCE flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Dugong Flavours"],
@@ -24,6 +26,7 @@
     "volumes": ["/headless/data"]
   },
   {
+    "type": "container",
     "title": "DugongGUI - iceWM flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Dugong Flavours"],
@@ -36,6 +39,7 @@
     "volumes": ["/headless/data"]
   },
   {
+    "type": "container",
     "title": "DugongClean - CMD flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Dugong Flavours"],
@@ -48,6 +52,7 @@
     "volumes": ["/headless/data"]
   },
   {
+    "type": "container",
     "title": "DugongClean - GUI XFCE flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Dugong Flavours"],
@@ -60,6 +65,7 @@
     "volumes": ["/headless/data"]
   },
   {
+    "type": "container",
     "title": "DugongClean - GUI iceWM flavour",
     "description": "Desktop-as-a-Service for Bioinformatics. \n Includes: Jupyter Notebook, BioConda, LinuxBrew, among other features.",
     "categories": ["Dugong Flavours"],
@@ -72,6 +78,7 @@
     "volumes": ["/headless/data"]
   },
   {
+    "type": "container",
     "title": "Dugong Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
     "categories": ["Dugong Pipeline"],
@@ -84,6 +91,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Dugong Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
     "categories": ["Dugong Pipeline"],
@@ -96,6 +104,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Dugong Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongCMD.",
     "categories": ["Dugong Pipeline"],
@@ -108,6 +117,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Stable",
     "description": "Galaxy Docker Image Stable.",
     "categories": ["Galaxy Flavours"],
@@ -120,6 +130,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: UseGalaxy.org",
     "description": "Galaxy Docker repository with tools from usegalaxy.org (UseGalaxy.org flavour).",
     "categories": ["Galaxy Flavours"],
@@ -132,6 +143,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Workflow4Metabolomics",
     "description": "Galaxy Docker Image Workflow4Metabolomics flavour.",
     "categories": ["Galaxy Flavours"],
@@ -144,6 +156,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: RNA workbench",
     "description": "Galaxy Docker Image RNA workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -156,6 +169,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: NCBI-Blast",
     "description": "Galaxy Docker Image NCBI-Blast flavour.",
     "categories": ["Galaxy Flavours"],
@@ -168,6 +182,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Ballaxy",
     "description": "Galaxy Docker Image Ballaxy flavour.",
     "categories": ["Galaxy Flavours"],
@@ -180,6 +195,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: DeepTools",
     "description": "Galaxy Docker Image DeepTools flavour.",
     "categories": ["Galaxy Flavours"],
@@ -192,6 +208,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: ChIP-exo Workbench",
     "description": "Galaxy Docker Image ChIP-exo Workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -204,6 +221,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Proteomics",
     "description": "Galaxy Docker Image Proteomics Workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -216,6 +234,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: NGS Preprocessing",
     "description": "Galaxy Docker Image NGS Preprocessing flavour.",
     "categories": ["Galaxy Flavours"],
@@ -228,6 +247,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: MPI for Evolutionary Biology",
     "description": "Galaxy Docker Image MPI for Evolutionary Biology flavour.",
     "categories": ["Galaxy Flavours"],
@@ -240,6 +260,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Cheminformatics workbench",
     "description": "Galaxy Docker Image Cheminformatics workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -252,6 +273,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Epigenetics workbench",
     "description": "Galaxy Docker Image Epigenetics workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -264,6 +286,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Machine Learning",
     "description": "Galaxy Docker Image Machine Learning flavour.",
     "categories": ["Galaxy Flavours"],
@@ -276,6 +299,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Molecular Phylogenetics",
     "description": "Galaxy Docker Image Molecular Phylogenetics flavour.",
     "categories": ["Galaxy Flavours"],
@@ -288,6 +312,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Protease Predictions",
     "description": "Galaxy Docker Image Protease Predictions flavour.",
     "categories": ["Galaxy Flavours"],
@@ -300,6 +325,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Metagenomics Workbench",
     "description": "Galaxy Docker Image Metagenomics Workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -312,6 +338,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: DESeq2 Workbench",
     "description": "Galaxy Docker Image DESeq2 Workbench flavour.",
     "categories": ["Galaxy Flavours"],
@@ -324,6 +351,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Sequence Tools",
     "description": "Galaxy Docker Image Sequence Tools flavour.",
     "categories": ["Galaxy Flavours"],
@@ -336,6 +364,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Exome Seq",
     "description": "Galaxy Docker Image Exome Seq flavour.",
     "categories": ["Galaxy Flavours"],
@@ -348,6 +377,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: RNA Structural Analysis",
     "description": "Galaxy Docker Image RNA Structural Analysis flavour.",
     "categories": ["Galaxy Flavours"],
@@ -360,6 +390,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Genome Annotation",
     "description": "Galaxy Docker Image Genome Annotation flavour.",
     "categories": ["Galaxy Flavours"],
@@ -372,6 +403,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: Image Analysis",
     "description": "Galaxy Docker Image Imaging Analysis flavour.",
     "categories": ["Galaxy Flavours"],
@@ -384,6 +416,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: MUMmer 3",
     "description": "Galaxy Docker Image MUMmer 3 flavour.",
     "categories": ["Galaxy Flavours"],
@@ -396,6 +429,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy: RNA-Seq",
     "description": "Galaxy Docker Image RNA-Seq flavour.",
     "categories": ["Galaxy Flavours"],
@@ -408,6 +442,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Galaxy Tools: IPython Notebook",
     "description": "Docker IPython Container",
     "categories": ["Galaxy Tools"],
@@ -420,6 +455,7 @@
     "volumes": ["/import/"]
   },
   {
+    "type": "container",
     "title": "Galaxy Tools: Jupyter Notebook",
     "description": "Docker Jupyter Container",
     "categories": ["Galaxy Tools"],
@@ -432,6 +468,7 @@
     "volumes": ["/import/"]
   },
   {
+    "type": "container",
     "title": "Galaxy Tools: Planemo",
     "description": "Docker Planemo Container",
     "categories": ["Galaxy Tools"],
@@ -444,6 +481,7 @@
     "volumes": ["/galaxy-central/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: Base",
     "description": "Small base image for Jupyter Notebook.",
     "categories": ["Jupyter Notebook"],
@@ -456,6 +494,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: JupyterHub",
     "description": "JupyterHub: A multi-user server for Jupyter notebooks.",
     "categories": ["Jupyter Notebook"],
@@ -468,6 +507,7 @@
     "volumes": ["/srv/jupyterhub/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: SingleUser",
     "description": "JupyterHub: A single-user server for Jupyter notebooks.",
     "categories": ["Jupyter Notebook"],
@@ -480,6 +520,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: Minimal",
     "description": "Minimal Jupyter Notebook.",
     "categories": ["Jupyter Notebook"],
@@ -492,6 +533,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: Scientific Python",
     "description": "Jupyter Notebook Scientific Python Stack.",
     "categories": ["Jupyter Notebook"],
@@ -504,6 +546,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: All Spark",
     "description": "Jupyter Notebook Python, Scala, R, Spark, Mesos Stack.",
     "categories": ["Jupyter Notebook"],
@@ -516,6 +559,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: Data Science",
     "description": "Jupyter Notebook Data Science.",
     "categories": ["Jupyter Notebook"],
@@ -528,6 +572,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: Tensorflow",
     "description": "Jupyter Notebook Scientific Python Stack Tensorflow.",
     "categories": ["Jupyter Notebook"],
@@ -540,6 +585,7 @@
     "volumes": ["/home/jovyan/work/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Notebook: Viewer",
     "description": "Jupyter Notebook Viewer.",
     "categories": ["Jupyter Tools"],
@@ -552,6 +598,7 @@
     "volumes": ["/home/jovyan/work/"]
   },	
   {
+    "type": "container",
     "title": "Jupyter Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
     "categories": ["Jupyter Pipeline"],
@@ -564,6 +611,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
     "categories": ["Jupyter Pipeline"],
@@ -576,6 +624,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "Jupyter Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongCMD.",
     "categories": ["Jupyter Pipeline"],
@@ -588,6 +637,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "GUIdock",
     "description": "Delivering GUI Display from Docker.",
     "categories": ["GUIdock Flavours"],
@@ -600,6 +650,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "GUIdock: noVNC",
     "description": "Delivering GUI Display from Docker.",
     "categories": ["GUIdock Flavours"],
@@ -612,6 +663,7 @@
     "volumes": ["/export/"]
   },
   {
+    "type": "container",
     "title": "R: Base",
     "description": "R is a system for statistical computation and graphics.",
     "categories": ["R Flavours"],
@@ -620,6 +672,7 @@
     "image": "docker pull r-base"
   },
   {
+    "type": "container",
     "title": "R: RStudio",
     "description": "RStudio Server image.",
     "categories": ["R Flavours"],
@@ -632,6 +685,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "R: Shiny",
     "description": "Shiny Server image.",
     "categories": ["R Flavours"],
@@ -644,6 +698,7 @@
     "volumes": ["/srv/shiny-server/", "/var/log/shiny-server/"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Base",
     "description": "Bioconductor: Base image.",
     "categories": ["Bioconductor Flavours"],
@@ -656,6 +711,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Core",
     "description": "Bioconductor: Core image.",
     "categories": ["Bioconductor Flavours"],
@@ -668,6 +724,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Flow Cytometry",
     "description": "Bioconductor: Flow Cytometry image.",
     "categories": ["Bioconductor Flavours"],
@@ -680,6 +737,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Microarray Packages",
     "description": "Bioconductor: Microarray Packages image.",
     "categories": ["Bioconductor Flavours"],
@@ -692,6 +750,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Sequencing Packages",
     "description": "Bioconductor: Sequencing Packages image.",
     "categories": ["Bioconductor Flavours"],
@@ -704,6 +763,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Proteomics Packages",
     "description": "Bioconductor: Proteomics Packages image.",
     "categories": ["Bioconductor Flavours"],
@@ -716,6 +776,7 @@
     "volumes": ["/home/rstudio"]
   },
   {
+    "type": "container",
     "title": "Bioconductor: Metabolomics Packages",
     "description": "Bioconductor: Metabolomics Packages image.",
     "categories": ["Bioconductor Flavours"],
@@ -728,6 +789,7 @@
     "volumes": ["/home/rstudio"]
   },	
   {
+    "type": "container",
     "title": "BioContainer: Base",
     "description": "Delivering GUI Display from Docker.",
     "categories": ["BioContainer Flavours"],
