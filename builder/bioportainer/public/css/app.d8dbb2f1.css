@@ -3127,14 +3127,14 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:hover {
   color: #fff;
   background-color: #286090;
-  border-color: #204d74;
+  border-color: #39af33;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #286090;
-  border-color: #204d74;
+  border-color: #39af33;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3146,7 +3146,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #204d74;
+  background-color: #39af33;
   border-color: #122b40;
 }
 .btn-primary:active,
@@ -7015,7 +7015,7 @@ div.input-mask {
 
 /* #592727 RED */
 /* #2f5927 GREEN */
-/* #30426a BLUE (default)*/
+/* #39af33 BLUE (default)*/
 /* Sidebar background color */
 /* Sidebar header and footer color */
 /* Sidebar title text colour */
@@ -7024,7 +7024,7 @@ div.input-mask {
  * Sidebar
  */
 #sidebar-wrapper {
-  background: #30426a;
+  background: #39af33;
 }
 ul.sidebar .sidebar-main a,
 .sidebar-footer,
@@ -7140,7 +7140,7 @@ ul.sidebar .sidebar-list .menu-icon {
 
 /* #592727 RED */
 /* #2f5927 GREEN */
-/* #30426a BLUE (default)*/
+/* #39af33 BLUE (default)*/
 /* Sidebar background color */
 /* Sidebar header and footer color */
 /* Sidebar title text colour */
@@ -7217,7 +7217,7 @@ ul.sidebar .sidebar-list .menu-icon {
   padding: 10px;
 }
 .widget .widget-icon {
-  background: #30426a;
+  background: #39af33;
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -12639,7 +12639,7 @@ ul.sidebar .sidebar-list .sidebar-sublist a.active {
 
 json-tree {
   font-size: 13px;
-  color: #30426a;
+  color: #39af33;
 }
 json-tree .key {
   color: #738bc0;
