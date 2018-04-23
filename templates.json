@@ -791,7 +791,7 @@
   {
     "type": "container",
     "title": "BioContainer: Base",
-    "description": "Delivering GUI Display from Docker.",
+    "description": "An open-source and community-driven framework for software standardization.",
     "categories": ["BioContainer Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_biocontainer.png",
