@@ -7,6 +7,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:cmd",
+    "privileged": true,
     "ports": [
       "3000/tcp", "22/tcp", "8888/tcp"
     ],
@@ -20,6 +21,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:xfce",
+    "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
@@ -33,6 +35,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:icewm",
+    "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
@@ -46,6 +49,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/dugong:cmd",
+    "privileged": true,
     "ports": [
       "3000/tcp", "22/tcp"
     ],
@@ -59,6 +63,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/clean:xfce",
+    "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp"
     ],
@@ -72,6 +77,7 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/clean:icewm",
+    "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp"
     ],
@@ -81,10 +87,11 @@
     "type": "container",
     "title": "Dugong Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
-    "categories": ["Dugong Pipeline"],
+    "categories": ["Dugong Pipeline", "Jupyter Pipeline"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/circompara:xfce",
+    "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
@@ -94,10 +101,11 @@
     "type": "container",
     "title": "Dugong Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
-    "categories": ["Dugong Pipeline"],
+    "categories": ["Dugong Pipeline", "Jupyter Pipeline"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/circompara:icewm",
+    "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
     ],
@@ -107,10 +115,11 @@
     "type": "container",
     "title": "Dugong Pipeline: CirComPara",
     "description": "Complete CirComPara Pipeline in DugongCMD.",
-    "categories": ["Dugong Pipeline"],
+    "categories": ["Dugong Pipeline", "Jupyter Pipeline"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
     "image": "dugong/circompara:cmd",
+    "privileged": true,
     "ports": [
       "3000/tcp", "22/tcp", "8888/tcp"
     ],
@@ -124,6 +133,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-stable",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -137,6 +207,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/usegalaxy",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -150,6 +281,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "workflow4metabolomics/galaxy-workflow4metabolomics",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -163,6 +355,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-rna-workbench",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -176,6 +429,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-blast",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -189,6 +503,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "anhi/ballaxy",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -202,6 +577,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-deeptools",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -215,6 +651,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "gregvonkuster/docker-galaxy-chip-exo",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -228,6 +725,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxyp",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -241,6 +799,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-ngs-preprocessing",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -254,6 +873,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-ploen",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -267,6 +947,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-chemicaltoolbox",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -280,6 +1021,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-epigenetics",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -293,6 +1095,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-machine-learning",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -306,6 +1169,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-phylogenetics",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -319,6 +1243,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-protease-prediction",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -332,6 +1317,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-metagenomics",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -345,6 +1391,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-deseq2",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -358,6 +1465,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-sequence-tools",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -371,6 +1539,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-exome-seq",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -384,6 +1613,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-rna-structural-analysis",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -397,6 +1687,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-genome-annotation",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -410,6 +1761,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-imaging",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -423,6 +1835,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-mummer",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -436,6 +1909,67 @@
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_galaxy.png",
     "image": "bgruening/galaxy-rna-seq",
+    "env": [
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "GALAXY_LOGGING",
+        "label": "Galaxy Logging"},
+      {
+        "name": "ENABLE_TTS_INSTALL",
+        "label": "Enables TTS Install"
+      },
+      {
+        "name": "BARE",
+        "label": "Bare"
+      },
+      {
+        "name": "NONUSE",
+        "label": "Non Use"
+      },
+      {
+        "name": "UWSGI_PROCESSES",
+        "label": "UWSGI Processes"
+      },
+      {
+        "name": "UWSGI_THREADS",
+        "label": "UWSGI Threads"
+      },
+      {
+        "name": "GALAXY_DOCKER_ENABLED",
+        "label": "Docker Enabled"
+      },
+      {
+        "name": "GALAXY_DOCKER_VOLUMES",
+        "label": "Docker Volumes"
+      },
+      {
+        "name": "GALAXY_HANDLER_NUMPROCS",
+        "label": "Handler NumProcs"
+      },
+      {
+        "name": "LOAD_GALAXY_CONDITIONAL_DEPENDENCIES",
+        "label": "Conditional Dependencies"
+      },
+      {
+        "name": "LOAD_PYTHON_DEV_DEPENDENCIES",
+        "label": "Python Dev Dependencies"
+      },
+      {
+        "name": "USE_HTTPS",
+        "label": "Use HTTPS"
+      },
+      {
+        "name": "USE_HTTPS_LETSENCRYPT",
+        "label": "Use HTTPS LetsEncrypt"
+      },
+      {
+        "name": "GALAXY_CONFIG_GALAXY_INFRASTRUCTURE_URL",
+        "label": "Galaxy Infrastructure URL"
+      }
+    ],
     "ports": [
       "80/tcp", "21/tcp", "22/tcp", "8800/tcp"
     ],
@@ -596,45 +2130,6 @@
       "8080/tcp"
     ],
     "volumes": ["/home/jovyan/work/"]
-  },	
-  {
-    "type": "container",
-    "title": "Jupyter Pipeline: CirComPara",
-    "description": "Complete CirComPara Pipeline in DugongGUI XFCE.",
-    "categories": ["Jupyter Pipeline"],
-    "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
-    "image": "dugong/circompara:xfce",
-    "ports": [
-      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
-    ],
-    "volumes": ["/export/"]
-  },
-  {
-    "type": "container",
-    "title": "Jupyter Pipeline: CirComPara",
-    "description": "Complete CirComPara Pipeline in DugongGUI iceWM.",
-    "categories": ["Jupyter Pipeline"],
-    "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
-    "image": "dugong/circompara:icewm",
-    "ports": [
-      "6901/tcp", "5901/tcp", "22/tcp", "8888/tcp"
-    ],
-    "volumes": ["/export/"]
-  },
-  {
-    "type": "container",
-    "title": "Jupyter Pipeline: CirComPara",
-    "description": "Complete CirComPara Pipeline in DugongCMD.",
-    "categories": ["Jupyter Pipeline"],
-    "platform": "linux",
-    "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_jupyter.png",
-    "image": "dugong/circompara:cmd",
-    "ports": [
-      "3000/tcp", "22/tcp", "8888/tcp"
-    ],
-    "volumes": ["/export/"]
   },
   {
     "type": "container",
