@@ -62,7 +62,7 @@
     "categories": ["Dugong Flavours"],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/LaBiOS/bioportainer/master/images/logo_dugong.png",
-    "image": "dugong/clean:xfce",
+    "image": "dugong/clean:xfce4",
     "privileged": true,
     "ports": [
       "6901/tcp", "5901/tcp", "22/tcp"
