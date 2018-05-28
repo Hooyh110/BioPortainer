@@ -38,22 +38,22 @@
 
 ---
 
-**FIG 9.**
+**FIG 9. Container List -** Option "Containers List" from the menu that allows direct and simple administration of the containers installed in the host machine. Options for start, stop, console, restart, kill, among others, can be accessed.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f8.png"></p>
 
 ---
 
-**FIG 10.**
+**FIG 10. Container Details -** Option "Containers Details" allows complete and advanced management of available containers in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f9.png"></p>
 
 ---
 
-**FIG 11.**
+**FIG 11. Images List -** Option "Images List" from the menu that allows direct and simple administration of the images available in the host machine. Options for start, stop, console, restart, kill, among others, can be accessed.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f10.png"></p>
 
 ---
 
-**FIG 12.**
+**FIG 12. Images Details -** Option "Images Details" allows complete and advanced management of available images in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f11.png"></p>
 
 ---
