@@ -3,12 +3,11 @@
 <p align="center"><img width="427" height="545" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/logonew1.png"></p>
 
 **BioPortainer** is a free and open-source Portainer fork specifically designed for bioinformatics-related Docker applications. Bioportainer can be easily implemented, through deployment of a single Docker image, providing access to more than 60 pre-configured templates, available from BioPortainer´s unique repository, which will assist users through a straightforward and intuitive process for installation, configuration and management of a great variety of Docker-based bioinformatics tools, either in Docker Hosts or in Swarm Clusters.
-
+</br></br>
 A general overview of the BioPortainer architecture can be found below: Users can deploy more than 60 preconfigured bioinformatics models available in the BioPortainer (b) repository, as well as administer and deploy Docker containers using images from DockerHub repositories, Quay.io or private (d). BioPortainer provides a graphical interface to DockerCLI (c), allowing full administration of Swarm clusters (including managers and workers) as well as local environments with only the Docker Engine and the Docker Daemon. BioPortainer's Dockerfile, as well as the JSON archive of the BioPortainer repository, are available for free and users are encouraged to participate in their further development by sending pull requests or contributing new software to the repository.
-
+</br></br>
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/fig1_alt.png"></p>
-
-
+</br></br>
 ---
 
 ## Test BioPortainer NOW!
