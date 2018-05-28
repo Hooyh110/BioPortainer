@@ -4,7 +4,8 @@
 **FIG 2. BioPortainer Environment Manager -** Setting up BioPortainer for a Local Docker or a Swarm Cluster
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f1.png"></p>
 
-**FIG 3.**
+**FIG 3. BioPortainer Dashboard -** Provides users with general information about the managed host, including: (i) number of containers created (running or stopped); (ii) number of volumes and networks created; (iii) number of images available on the host (and space consumed by them); (iv) hostname of the machine and (v) details regarding the amount of CPU and memory available in the host machine.
+
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f2.png"></p>
 
 **FIG 4.**
