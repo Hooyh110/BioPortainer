@@ -2,6 +2,8 @@
 
 <p align="center"><img width="427" height="545" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/logonew1.png"></p>
 
+
+
 **BioPortainer** is a free and open-source [Portainer](https://portainer.io/) fork specifically designed for bioinformatics-related Docker applications. Bioportainer can be easily implemented, through deployment of a single Docker image, providing access to more than 60 pre-configured templates, available from BioPortainer´s unique repository, which will assist users through a straightforward and intuitive process for installation, configuration and management of a great variety of Docker-based bioinformatics tools, either in Docker Hosts or in [Swarm Clusters](https://docs.docker.com/engine/swarm/).
 
 It's an implementation built under the [MIT license](https://opensource.org/licenses/MIT) using the [Docker platform](https://www.docker.com/), an open-source project that automates the implementation of applications within software containers, providing an additional layer of abstraction and automation of operating system-level virtualization on [Linux](https://en.wikipedia.org/wiki/Linux). [Docker](https://www.docker.com/) uses the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel) resource isolation features, such as [cgroups](https://en.wikipedia.org/wiki/Cgroups) and [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces), as well as the file system [AuFS](https://en.wikipedia.org/wiki/Aufs) (advanced multi layered unification filesystem) to allow independent *containers* to run in a single Linux instance, avoiding an overload of initialization and maintenance of virtual machines.
@@ -35,7 +37,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
 ---
 
-## MENU <a name="menu" />
+# MENU <a name="menu" />
 
 - [Deploy BioPortainer Image](#Deploy-BioPortainer)
   - [Dockerfile](#Deploy-BioPortainer)
@@ -98,14 +100,14 @@ http://localhost:9000
 
 ---
 
-# BioPortainer Documentation <a name="Documentation-BioPortainer" /> [[menu]](#menu)
+## BioPortainer Documentation <a name="Documentation-BioPortainer" /> [[menu]](#menu)
 
 Because BioPortainer is a Portainer fork, general project information can be found in the original Portainer documentation (https://portainer.readthedocs.io/en/stable/). A fork of the Portainer documentation with more details on the changes implemented in BioPortainer can be found at:
 
 
 ---
 
-# BioPortainer Screenshots <a name="Screenshot-BioPortainer" /> [[menu]](#menu)
+## BioPortainer Screenshots <a name="Screenshot-BioPortainer" /> [[menu]](#menu)
 
 
 Learn about the main features of BioPortainer through screeshots of its graphical interface. Access the screenshots [here].
