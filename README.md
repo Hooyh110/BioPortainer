@@ -42,6 +42,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 - [BioPortainer Access](#Access-BioPortainer)
 - [BioPortainer Documentation](#Documentation-BioPortainer)
 - [BioPortainer Screenshot](#Screenshot-BioPortainer)
+- [BioPortainer Video Tutorial](#Video-BioPortainer)
 - [BioPortainer Lab's](#Test-BioPortainer)
 
 ---
@@ -109,6 +110,12 @@ Because BioPortainer is a Portainer fork, general project information can be fou
 
 
 Learn about the main features of BioPortainer through screeshots of its graphical interface. Access the screenshots [here](https://github.com/LaBiOS/BioPortainer/blob/master/SCREENSHOT.md).
+
+---
+
+## BioPortainer Video Tutorial <a name="Video-BioPortainer" /> [[menu]](#menu)
+
+See BioPortainer installation and setup video tutorials [here](https://github.com/LaBiOS/BioPortainer/blob/master/VIDEOS.md).
 
 
 ---
