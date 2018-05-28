@@ -13,12 +13,12 @@
 
 ---
 
-**FIG 4.**
+**FIG 4. BioPortainer App Templates -** Containing the preconfigured Bioinformatics templates and highlighting their main categories.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f3.png"></p>
 
 ---
 
-**FIG 5.**
+**FIG 5. BioPortainer App Templates -** Containing all preconfigured templates and highlighting their main categories.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f4.png"></p>
 
 ---
