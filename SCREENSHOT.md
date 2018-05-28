@@ -38,42 +38,42 @@
 
 ---
 
-**FIG 9. Container List -** Option "Containers List" from the menu that allows direct and simple administration of the containers installed in the host machine. Options for start, stop, console, restart, kill, among others, can be accessed.
+**FIG 9. Container List -** Option "Container List" from the menu that allows direct and simple administration of the containers installed in the host machine. Options for start, stop, console, restart, kill, among others, can be accessed.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f8.png"></p>
 
 ---
 
-**FIG 10. Container Details -** Option "Containers Details" allows complete and advanced management of available containers in the host machine.
+**FIG 10. Container Details -** Option "Container Details" allows complete and advanced management of available containers in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f9.png"></p>
 
 ---
 
-**FIG 11. Images List -** Option "Images List" from the menu that allows direct and simple administration of the images available in the host machine. Options for start, stop, console, restart, kill, among others, can be accessed.
+**FIG 11. Image List -** Option "Image List" from the menu that allows direct and simple administration of the images available in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f10.png"></p>
 
 ---
 
-**FIG 12. Images Details -** Option "Images Details" allows complete and advanced management of available images in the host machine.
+**FIG 12. Image Details -** Option "Image Details" allows complete and advanced management of available images in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f11.png"></p>
 
 ---
 
-**FIG 13.**
+**FIG 13. Network List -** Option "Network List" from the menu that allows direct and simple administration of the networks available in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f12.png"></p>
 
 ---
 
-**FIG 14.**
+**FIG 14. Network Details -** Option "Network Details" allows complete and advanced management of available networks in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f13.png"></p>
 
 ---
 
-**FIG 15.**
+**FIG 15. Volume List -** Option "Volume List" from the menu that allows direct and simple administration of the volumes available in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f14.png"></p>
 
 ---
 
-**FIG 16.**
+**FIG 16. Volume Details -** Option "Volume Details" allows complete and advanced management of available volume in the host machine.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f15.png"></p>
 
 ---
