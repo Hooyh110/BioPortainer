@@ -87,6 +87,7 @@ Currently, BioPortainer does not require any additional configurations for its f
 
 ## Access BioPortainer <a name="Access-BioPortainer" /> [[menu]](#menu)
 
+After deployment, BioPortainer can be accessed through the host machine's address and port 9000 (if it's a local machine, use http://localhost:9000).
 
 ```
 http://<IP or Host>:9000
