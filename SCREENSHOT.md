@@ -1,7 +1,7 @@
 **FIG 1. BioPortainer Authentication Panel -** BioPortainer main authentication screen
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f0.png"></p>
 
-**FIG 2. BioPortainer Environment Manager**
+**FIG 2. BioPortainer Environment Manager -** Setting up BioPortainer for a Local Docker or a Swarm Cluster
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f1.png"></p>
 
 **FIG 3.**
