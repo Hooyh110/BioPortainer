@@ -33,9 +33,3 @@
 - Click to watch the configuration of ***BioPortainer*** in video:
 
 [![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v6.png)](https://youtu.be/mY1EnAULQpc)
-
-### Deploy DugongClean CMD in BioPortainer (Swarm Cluster mode)
-
-[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v7.png)](https://youtu.be/0cNV6mHWEGg)
-
-[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v8.png)](https://youtu.be/mY1EnAULQpc)
