@@ -6,27 +6,28 @@ In the first scenario, use Play-with-Docker (https://labs.play-with-docker.com) 
 
 $ docker info
 
-### Check if there are Docker containers being executed, by typing: 
+##### Check if there are Docker containers being executed, by typing: 
 
 $ docker ps
 
-### Download BioPortainer image from the Docker Hub, by typing: 
+##### Download BioPortainer image from the Docker Hub, by typing: 
 
 $ docker pull bioportainer/bioportainer
 
-### Confirm download the BioPortainer image, by typing:
+##### Confirm download the BioPortainer image, by typing:
 
 $ docker images
 
-### Create a BioPortainer container, by typing:
+##### Create a BioPortainer container, by typing:
 
 $ docker run -d --name BioPortainer -p 9000:9000 \
   -v /var/run/docker.sock:/var/run/docker.sock \
   bioportainer/bioportainer
 
-### Confirm creation of the BioPortainer container, by typing:
+##### Confirm creation of the BioPortainer container, by typing:
 
 $ docker ps
+
 
 Note that the commands described above deploy the BioPortainer container as a daemon (`-d`), published in the port 9000 of the test virtual machine. The Docker socket is defined by the parameter  –v (`/var/run/docker.sock`), to provide information regarding the timing of Docker excecution. Play with Docker allows all published ports of a Docker container (or all the services published in a Docker Swarm) to be automatically presented to outside connections. 
 
