@@ -33,7 +33,7 @@
 
 ---
 
-**FIG 8.**
+**FIG 8. Galaxy Stable configuration through BioPortainer.** In the Galaxy Stable of App Templates, all Magic Environment Variables are available through the interface for quick and easy setup.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f7.png"></p>
 
 ---
