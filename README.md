@@ -36,17 +36,17 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
 # MENU <a name="menu" />
 
-- [Deploy BioPortainer Image](#Deploy-BioPortainer)
+- [BioPortainer Deploy](#Deploy-BioPortainer)
   - [Dockerfile](#Deploy-BioPortainer)
   - [Docker Compose](#Deploy-BioPortainer)
-- [Access BioPortainer](#Access-BioPortainer)
+- [BioPortainer Access](#Access-BioPortainer)
 - [BioPortainer Documentation](#Documentation-BioPortainer)
 - [BioPortainer Screenshot](#Screenshot-BioPortainer)
 - [BioPortainer Lab's](#Test-BioPortainer)
 
 ---
 
-## Deploy BioPortainer Image <a name="Deploy-BioPortainer" /> [[menu]](#menu)
+## BioPortainer Deploy <a name="Deploy-BioPortainer" /> [[menu]](#menu)
 
 To start BioPortainer, the user must have [Docker](https://docs.docker.com/engine/installation/) and [Docker Compose](https://docs.docker.com/compose/) installed on his operating system, according to the tutorials available in the project documentation. The BioPortainer image is available in the Docker Hub and its use is the recommended method of installation.
 
@@ -84,7 +84,7 @@ Currently, BioPortainer does not require any additional configurations for its f
 
 ---
 
-## Access BioPortainer <a name="Access-BioPortainer" /> [[menu]](#menu)
+## BioPortainer Access <a name="Access-BioPortainer" /> [[menu]](#menu)
 
 After deployment, BioPortainer can be accessed through the host machine's address and port 9000 (if it's a local machine, use http://localhost:9000).
 
