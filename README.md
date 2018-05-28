@@ -9,6 +9,7 @@ It's an implementation built under the [MIT license](https://opensource.org/lice
 A general overview of the BioPortainer architecture can be found below: Users (a) can deploy more than 60 preconfigured bioinformatics models available in the BioPortainer (b) repository, as well as administer and deploy Docker containers using images from [DockerHub](https://hub.docker.com) repositories, [Quay.io](https://quay.io) or private (d). BioPortainer provides a graphical interface to DockerCLI (c), allowing full administration of [Swarm Clusters](https://docs.docker.com/engine/swarm/) (including managers and workers) as well as local environments with only the Docker Engine and the Docker Daemon. BioPortainer's Dockerfile, as well as the JSON archive of the BioPortainer repository, are available for free and users are encouraged to participate in their further development by sending pull requests or contributing new software to the repository.
 </br></br>
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/fig1_alt.png"></p>
+
 </br></br>
 
 ---
@@ -31,7 +32,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
 [![Dply](https://dply.co/b.svg)](https://dply.co/b/PNVHI5YX) 
 
-</br>
+</br></br>
 
 ---
 
@@ -42,6 +43,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
   - [Docker Compose](#Deploy-BioPortainer)
 - [Access BioPortainer Image](#Access-BioPortainer)
 
+</br></br>
 
 ---
 
@@ -76,10 +78,9 @@ $ wget http://bioportainer.ml/docker-compose.yml -P bioportainer
 $ cd bioportainer; docker-compose up -d
 
 ```
+</br></br>
 
 ---
-
-</br>
 
 ## Access BioPortainer <a name="Access-BioPortainer" /> [[menu]](#menu)
 
@@ -92,30 +93,6 @@ or
 http://localhost:9000
 ```
 
+</br></br>
+
 ---
-
-## Screenshot BioPortainer
-
-- Menu Container
-
-![Container](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-31-53.png)
-
-- Menu Images
-
-![Images](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-32-21.png)
-
-- Application templates list
-
-![Templates](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-30-14.png)
-
-- Application templates: Dugong CMD
-
-![DugongCMD](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-30-28.png)
-
-- Application templates: Dugong GUI
-
-![DugongGUI](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-30-47.png)
-
-- Application templates: Galaxy Stable
-
-![Galaxy](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/Screenshot%20from%202017-11-01%2006-31-17.png)
