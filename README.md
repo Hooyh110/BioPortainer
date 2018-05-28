@@ -41,7 +41,8 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 - [Deploy BioPortainer Image](#Deploy-BioPortainer)
   - [Dockerfile](#Deploy-BioPortainer)
   - [Docker Compose](#Deploy-BioPortainer)
-- [Access BioPortainer Image](#Access-BioPortainer)
+- [Access BioPortainer](#Access-BioPortainer)
+- [BioPortainer Documentation](#Documentation-BioPortainer)
 
 </br>
 
@@ -100,3 +101,9 @@ http://localhost:9000
 </br>
 
 ---
+
+# BioPortainer documentation <a name="Documentation-BioPortainer" /> [[menu]](#menu)
+
+Because BioPortainer is a Portainer fork, general project information can be found in the original Portainer documentation (https://portainer.readthedocs.io/en/stable/).
+
+A fork of the Portainer documentation with more details on the changes implemented in BioPortainer can be found at:
