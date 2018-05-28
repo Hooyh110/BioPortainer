@@ -2,7 +2,7 @@ repository: LaBiOS/bioportainer
 theme: jekyll-theme-architect
 name: BioPortainer
 title: BioPortainer
-description: a Docker Management UI for Bioinformatics
+description: a Docker UI for Bioinformatics
 author: Menegidio, F.B.
 author_email: fabiano.menegidio@biology.bio.br
 
