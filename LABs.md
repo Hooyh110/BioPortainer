@@ -55,10 +55,12 @@ To access the BioPortainer interface the user must use a URL following the patte
 ### Screeshots
 
 **(Figure 1)**
-<p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/labs/l3.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/labs/l4.png"></p>
 
 **(Figure 2)**
-<p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/labs/l4.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/labs/l3.png"></p>
+
+
 
 
 ---
