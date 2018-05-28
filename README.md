@@ -40,6 +40,8 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 - [Deploy BioPortainer Image](#Deploy-BioPortainer)
   - [Dockerfile](#Deploy-BioPortainer)
   - [Docker Compose](#Deploy-BioPortainer)
+- [Access BioPortainer Image](#Access-BioPortainer)
+
 
 ---
 
@@ -77,41 +79,9 @@ $ cd bioportainer; docker-compose up -d
 
 ---
 
-## Deploy BioPortainer Image
+</br>
 
-To start BioPortainer, the user must have [Docker](https://docs.docker.com/engine/installation/) and [Docker Compose](https://docs.docker.com/compose/) installed on his operating system, according to the tutorials available in the project documentation. The BioPortainer image is available in the Docker Hub and its use is the recommended method of installation.
-
-Two steps are required to start a container containing BioPortainer. In the first step, the BioPortainer image is downloaded from the Docker Hub servers to the host, and in the second, a container is created on the host machine with the default BioPortainer installation. If the host machine is a Linux, the following commands must be performed in the terminal:
-
-```
-$ docker pull labios/bioportainer
-```
-
-```
-$ docker run -d -p 9000:9000 --name BioPortainer \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v ${PWD}/bioportainer_data:/data \
-  labios/bioportainer \
-  --templates http://bioportainer.ml/templates.json
-```
-
-BioPortainer can also be installed through the Docker Compose, according to the procedure below:
-
-1 - Download docker-compose.yml:
-
-```
-$ wget http://bioportainer.ml/docker-compose.yml -P bioportainer
-```
-
-2 - Run Docker Compose:
-
-```
-$ cd bioportainer; docker-compose up -d
-```
-
----
-
-## Access BioPortainer
+## Access BioPortainer <a name="Access-BioPortainer" /> [[menu]](#menu)
 
 
 ```
