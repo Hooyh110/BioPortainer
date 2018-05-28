@@ -43,7 +43,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
   - [Docker Compose](#Deploy-BioPortainer)
 - [Access BioPortainer Image](#Access-BioPortainer)
 
-</br></br>
+</br>
 
 ---
 
@@ -81,7 +81,7 @@ $ cd bioportainer; docker-compose up -d
 
 Currently, BioPortainer does not require any additional configurations for its full operation, thanks to alterations introduced in the Portainer original source code, resulting in direct installation of BioPortainer templates, in detriment of the templates available through the Portainer default configuration. However, if users already have a default installation of Portainer in their computing environment, the BioPortainer repository can also be deployed through the main menu, using the command: Settings → Application Templates → Use Custom Templates.
 
-</br></br>
+</br>
 
 ---
 
@@ -97,6 +97,6 @@ or
 http://localhost:9000
 ```
 
-</br></br>
+</br>
 
 ---
