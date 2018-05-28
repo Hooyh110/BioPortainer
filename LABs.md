@@ -1,4 +1,4 @@
-## Scenario 1: Testing BioPortainer Installation in a Docker Engine using Play with Docker
+### Scenario 1: Testing BioPortainer Installation in a Docker Engine using Play with Docker
 
 In the first scenario, use Play-with-Docker (https://labs.play-with-docker.com) to configure a virtual machine containing the Docker Engine installed. 
 
