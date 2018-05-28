@@ -43,6 +43,7 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
   - [Docker Compose](#Deploy-BioPortainer)
 - [Access BioPortainer](#Access-BioPortainer)
 - [BioPortainer Documentation](#Documentation-BioPortainer)
+- [BioPortainer Screenshot](#Screenshot-BioPortainer)
 
 </br>
 
@@ -105,3 +106,26 @@ http://localhost:9000
 # BioPortainer documentation <a name="Documentation-BioPortainer" /> [[menu]](#menu)
 
 Because BioPortainer is a Portainer fork, general project information can be found in the original Portainer documentation (https://portainer.readthedocs.io/en/stable/). A fork of the Portainer documentation with more details on the changes implemented in BioPortainer can be found at:
+
+
+</br></br>
+
+---
+
+## Author <a name="Author" /> [[menu]](#menu)
+
+Current development is led by Fabiano Menegidio.
+
+## Contributing <a name="Contributing" /> [[menu]](#menu)
+
+You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
+
+Before you start to code, we recommend discussing your plans through a GitHub issue, especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
+
+## MIT License <a name="MIT" /> [[menu]](#menu)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+***The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.***
