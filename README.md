@@ -71,7 +71,8 @@ BioPortainer can also be installed through the Docker Compose, according to the 
 1 - Download docker-compose.yml:
 
 ```
-$ wget http://bioportainer.ml/docker-compose.yml -P bioportainer
+$ wget http://bioportainer.ml/docker-compose.yml \
+  -P bioportainer
 ```
 
 2 - Run Docker Compose:
@@ -110,7 +111,7 @@ Because BioPortainer is a Portainer fork, general project information can be fou
 ## BioPortainer Screenshots <a name="Screenshot-BioPortainer" /> [[menu]](#menu)
 
 
-Learn about the main features of BioPortainer through screeshots of its graphical interface. Access the screenshots [here].
+Learn about the main features of BioPortainer through screeshots of its graphical interface. Access the screenshots [here](https://github.com/LaBiOS/BioPortainer/blob/master/SCREENSHOT.md).
 
 
 ---
