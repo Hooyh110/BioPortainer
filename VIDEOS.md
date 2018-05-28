@@ -8,9 +8,13 @@
 
 ### BioPortainer Configuration in Play-with-Docker (Docker Engine mode)
 
+- Click to watch the configuration of ***BioPortainer*** in video:
+
 [![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v2.png)](https://youtu.be/uo7xSbAUars)
 
 ### Deploy DugongClean CMD in BioPortainer (Docker Engine mode)
+
+- Click to watch the deploy DugongClean CMD in ***BioPortainer***:
 
 [![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v3.png)](https://youtu.be/F7WG2kIVgls)
 
@@ -22,14 +26,16 @@
 
 - Click to watch the installation of ***BioPortainer*** in video:
 
-[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v5.png)](https://youtu.be/alKIA6hW3dI)
+[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v5.png)](https://youtu.be/0cNV6mHWEGg)
 
-### BioPortainer Configuration in Play-with-Docker (Docker Engine mode)
+### BioPortainer Configuration in Play-with-Docker (Swarm Cluster mode)
 
-[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v6.png)](https://youtu.be/uo7xSbAUars)
+- Click to watch the configuration of ***BioPortainer*** in video:
 
-### Deploy DugongClean CMD in BioPortainer (Docker Engine mode)
+[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v6.png)](https://youtu.be/mY1EnAULQpc)
 
-[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v7.png)](https://youtu.be/F7WG2kIVgls)
+### Deploy DugongClean CMD in BioPortainer (Swarm Cluster mode)
 
-[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v8.png)](https://youtu.be/3SVkTiWFYo4)
+[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v7.png)](https://youtu.be/0cNV6mHWEGg)
+
+[![Watch the video](https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/videos/v8.png)](https://youtu.be/mY1EnAULQpc)
