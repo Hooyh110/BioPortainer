@@ -1,4 +1,6 @@
-<p align="center"><img width="216" height="235" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/biportainer.png"></p>
+[![DOI](https://zenodo.org/badge/105034013.svg)](https://zenodo.org/badge/latestdoi/105034013)
+
+<p align="center"><img width="216" height="235" src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/logonew1.png"></p>
 
 ---
 
