@@ -1,7 +1,7 @@
-**FIG 1.**
+**FIG 1. BioPortainer Authentication Panel -** BioPortainer main authentication screen
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f0.png"></p>
 
-**FIG 2.**
+**FIG 2. **
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f1.png"></p>
 
 **FIG 3.**
