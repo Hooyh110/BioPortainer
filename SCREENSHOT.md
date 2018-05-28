@@ -78,12 +78,12 @@
 
 ---
 
-**FIG 17.**
+**FIG 17. Registries -** Allows full administration of local and remote Registries, including DockerHub and Quay.io.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f16.png"></p>
 
 ---
 
-**FIG 18.**
+**FIG 18. Endpoints -** Allows complete administration and configuration of local Docker Hosts or Swarm Clusters.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f17.png"></p>
 
 ---
