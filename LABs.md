@@ -2,29 +2,29 @@
 
 In the first scenario, use Play-with-Docker (https://labs.play-with-docker.com) to configure a virtual machine containing the Docker Engine installed. Next, use the ADD NEW INSTANCE option to create the test virtual machine and type the following commands to deploy BioPortainer:
 
-##### Test if Docker is installed and running, by typing:
+##### 1. Test if Docker is installed and running, by typing:
 
 $ docker info
 
-##### Check if there are Docker containers being executed, by typing: 
+##### 2. Check if there are Docker containers being executed, by typing: 
 
 $ docker ps
 
-##### Download BioPortainer image from the Docker Hub, by typing: 
+##### 3. Download BioPortainer image from the Docker Hub, by typing: 
 
 $ docker pull bioportainer/bioportainer
 
-##### Confirm download the BioPortainer image, by typing:
+##### 4. Confirm download the BioPortainer image, by typing:
 
 $ docker images
 
-##### Create a BioPortainer container, by typing:
+##### 5. Create a BioPortainer container, by typing:
 
 $ docker run -d --name BioPortainer -p 9000:9000 \
   -v /var/run/docker.sock:/var/run/docker.sock \
   bioportainer/bioportainer
 
-##### Confirm creation of the BioPortainer container, by typing:
+##### 6. Confirm creation of the BioPortainer container, by typing:
 
 $ docker ps
 
