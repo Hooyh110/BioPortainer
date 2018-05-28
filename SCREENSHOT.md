@@ -23,17 +23,17 @@
 
 ---
 
-**FIG 6.**
+**FIG 6. DugongCMD configuration through BioPortainer -** Application form for the "Dugong CMD" template of the BioPortainer repository. Through the form, user can configure the implementation of different bioinformatics protocols in a simple and fast way
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f5.png"></p>
 
 ---
 
-**FIG 7.**
+**FIG 7. DugongCMD configuration through BioPortainer -** Application form for the "Dugong CMD" template of the BioPortainer repository. Through the form, user can configure the implementation of different bioinformatics protocols in a simple and fast way
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f6.png"></p>
 
 ---
 
-**FIG 8. Galaxy Stable configuration through BioPortainer.** In the Galaxy Stable of App Templates, all Magic Environment Variables are available through the interface for quick and easy setup.
+**FIG 8. Galaxy Stable configuration through BioPortainer -** In the Galaxy Stable of App Templates, all Magic Environment Variables are available through the interface for quick and easy setup.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f7.png"></p>
 
 ---
