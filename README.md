@@ -6,7 +6,7 @@
 
 A general overview of the BioPortainer architecture can be found below: Users can deploy more than 60 preconfigured bioinformatics models available in the BioPortainer (b) repository, as well as administer and deploy Docker containers using images from DockerHub repositories, Quay.io or private (d). BioPortainer provides a graphical interface to DockerCLI (c), allowing full administration of Swarm clusters (including managers and workers) as well as local environments with only the Docker Engine and the Docker Daemon. BioPortainer's Dockerfile, as well as the JSON archive of the BioPortainer repository, are available for free and users are encouraged to participate in their further development by sending pull requests or contributing new software to the repository.
 
-<p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/mages/fig1_alt.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/fig1_alt.png"></p>
 
 
 ---
@@ -27,7 +27,7 @@ We currently offer the following operating systems: CentOS 6, CentOS 7, Debian 7
 
 Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
-[![Dply](https://dply.co/b.svg)](https://dply.co/b/77iNLq7X) 
+[![Dply](https://dply.co/b.svg)](https://dply.co/b/PNVHI5YX) 
 
 
 ---
