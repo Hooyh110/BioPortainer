@@ -2,7 +2,7 @@
 
 In the first scenario, use Play-with-Docker (https://labs.play-with-docker.com) to configure a virtual machine containing the Docker Engine installed. Next, use the ADD NEW INSTANCE option to create the test virtual machine and type the following commands to deploy BioPortainer:
 
-### Test if Docker is installed and running, by typing:
+###### Test if Docker is installed and running, by typing:
 
 $ docker info
 
