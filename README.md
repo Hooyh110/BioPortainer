@@ -31,17 +31,19 @@ Test the BioPortainer on a machine with Ubuntu 16.04 by clicking the button:
 
 [![Dply](https://dply.co/b.svg)](https://dply.co/b/PNVHI5YX) 
 
+</br>
+
 ---
 
 ## MENU <a name="menu" />
 
-- [Dugong flavours](#Dugong-flavours)
-  - [DugongGUI Version](#DugongGUI)
-  - [DugongCMD Version](#DugongCMD)
+- [Deploy BioPortainer Image](#Deploy-BioPortainer)
+  - [Dockerfile](#Deploy-BioPortainer)
+  - [Docker Compose](#Deploy-BioPortainer)
 
 ---
 
-## Deploy BioPortainer Image
+## Deploy BioPortainer Image <a name="Deploy-BioPortainer" /> [[menu]](#menu)
 
 To start BioPortainer, the user must have [Docker](https://docs.docker.com/engine/installation/) and [Docker Compose](https://docs.docker.com/compose/) installed on his operating system, according to the tutorials available in the project documentation. The BioPortainer image is available in the Docker Hub and its use is the recommended method of installation.
 
