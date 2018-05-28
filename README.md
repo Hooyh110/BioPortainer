@@ -60,7 +60,7 @@ $ docker pull labios/bioportainer
 $ docker run -d -p 9000:9000 --name BioPortainer \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v ${PWD}/bioportainer_data:/data \
-  bioportainer/bioportainer
+  labios/bioportainer
 ```
 
 BioPortainer can also be installed through the Docker Compose, according to the procedure below:
