@@ -88,7 +88,7 @@
 
 ---
 
-**FIG 19.**
+**FIG 19. Users -** Allows the complete configuration of users with different permissions for full administration of BioPortainer.
 <p align="center"><img src="https://raw.githubusercontent.com/LaBiOS/BioPortainer/master/images/screen/f18.png"></p>
 
 ---
