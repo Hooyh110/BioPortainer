@@ -104,6 +104,4 @@ http://localhost:9000
 
 # BioPortainer documentation <a name="Documentation-BioPortainer" /> [[menu]](#menu)
 
-Because BioPortainer is a Portainer fork, general project information can be found in the original Portainer documentation (https://portainer.readthedocs.io/en/stable/).
-
-A fork of the Portainer documentation with more details on the changes implemented in BioPortainer can be found at:
+Because BioPortainer is a Portainer fork, general project information can be found in the original Portainer documentation (https://portainer.readthedocs.io/en/stable/). A fork of the Portainer documentation with more details on the changes implemented in BioPortainer can be found at:
