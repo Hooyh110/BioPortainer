@@ -78,6 +78,9 @@ $ wget http://bioportainer.ml/docker-compose.yml -P bioportainer
 $ cd bioportainer; docker-compose up -d
 
 ```
+
+Currently, BioPortainer does not require any additional configurations for its full operation, thanks to alterations introduced in the Portainer original source code, resulting in direct installation of BioPortainer templates, in detriment of the templates available through the Portainer default configuration. However, if users already have a default installation of Portainer in their computing environment, the BioPortainer repository can also be deployed through the main menu, using the command: Settings → Application Templates → Use Custom Templates.
+
 </br></br>
 
 ---
