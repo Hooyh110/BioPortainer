@@ -58,14 +58,14 @@ To start BioPortainer, the user must have [Docker](https://docs.docker.com/engin
 Two steps are required to start a container containing BioPortainer. In the first step, the BioPortainer image is downloaded from the Docker Hub servers to the host, and in the second, a container is created on the host machine with the default BioPortainer installation. If the host machine is a Linux, the following commands must be performed in the terminal:
 
 ```
-$ docker pull labios/bioportainer
+$ docker pull bioportainer/bioportainer
 ```
 
 ```
 $ docker run -d -p 9000:9000 --name BioPortainer \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v ${PWD}/bioportainer_data:/data \
-  labios/bioportainer
+  bioportainer/bioportainer
 ```
 
 BioPortainer can also be installed through the Docker Compose, according to the procedure below:
